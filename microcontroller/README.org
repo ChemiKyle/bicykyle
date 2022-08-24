@@ -1,0 +1,13 @@
+This directory contains a PlatformIO project.
+
+You will need one file for configuration:
+
+include/settings.h
+#+begin_src cpp
+#define MQTT_TOPIC "bicykyle"
+
+const char* ssid = "Your WiFi Name";
+const char* password = "Your WiFi Password";
+
+const char* mqtt_server = "192.168.1.5"; // the ip address of the computer hosting the mqtt server and webapp
+#+end_src
